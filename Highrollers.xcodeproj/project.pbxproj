@@ -11,6 +11,8 @@
 		4B322253286015740010DEBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B322252286015740010DEBE /* ContentView.swift */; };
 		4B322255286015780010DEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B322254286015780010DEBE /* Assets.xcassets */; };
 		4B322258286015780010DEBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B322257286015780010DEBE /* Preview Assets.xcassets */; };
+		4B32225F286016560010DEBE /* DiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32225E286016560010DEBE /* DiceResult.swift */; };
+		4B322261286019820010DEBE /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B322260286019820010DEBE /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4B322252286015740010DEBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B322254286015780010DEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B322257286015780010DEBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B32225E286016560010DEBE /* DiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceResult.swift; sourceTree = "<group>"; };
+		4B322260286019820010DEBE /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				4B322250286015740010DEBE /* HighrollersApp.swift */,
 				4B322252286015740010DEBE /* ContentView.swift */,
+				4B32225E286016560010DEBE /* DiceResult.swift */,
+				4B322260286019820010DEBE /* FileManager-DocumentsDirectory.swift */,
 				4B322254286015780010DEBE /* Assets.xcassets */,
 				4B322256286015780010DEBE /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B322253286015740010DEBE /* ContentView.swift in Sources */,
+				4B32225F286016560010DEBE /* DiceResult.swift in Sources */,
+				4B322261286019820010DEBE /* FileManager-DocumentsDirectory.swift in Sources */,
 				4B322251286015740010DEBE /* HighrollersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
